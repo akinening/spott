@@ -16,7 +16,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="styl">
 body {
   font-family:
     "Helvetica Neue",
