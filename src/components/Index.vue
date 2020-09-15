@@ -24,7 +24,6 @@ export default {
   height 164px
   background-color #FEBF1B
   border-radius 16px
-  margin-top 32px
   overflow hidden
 
   &__text

@@ -31,7 +31,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.main {
-    margin-left: 360px;
-}
+.main
+    margin-top 32px
+    margin-left calc(360px + 32px)
+
 </style>
