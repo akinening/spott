@@ -7,15 +7,7 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    {
-      path: '/',
-      name: 'Index',
-      component: Index
-    },
-    {
-      path: '/icon',
-      name: 'Icon',
-      component: Icon
-    }
+    { path: '/', name: 'Index', component: Index },
+    { path: '/icon', name: 'Icon', component: Icon }
   ]
 })
