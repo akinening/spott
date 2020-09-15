@@ -2,13 +2,6 @@
 
 > 日々のデザイン業務で便利な「おすすめスポット」をまとめています。
 
-## 使っているもの
-- Vue Router
-- Stylus + BEM
-- normalize.css
-
-ほか
-
 ## Build Setup
 
 ``` bash
