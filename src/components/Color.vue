@@ -1,0 +1,40 @@
+<template>
+  <div>
+    <a class="link-list" v-for="(link, num) in links" :href="link.url" :key="num" target="_blank">
+      {{ link.title }}
+    </a>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Icon',
+  data () {
+    return {
+      links: [
+        {
+            url: 'https://palx.jxnblk.com/',
+            title: 'PALX - 自動でカラーシステムを生成'
+        },
+        {
+            url: 'https://coolors.co/',
+            title: 'Coolors - 5種類の色の組み合わせ'
+        },
+        {
+            url: 'https://color.adobe.com/ja/create/color-wheel',
+            title: 'Adobe Color - 色の組み合わせ'
+        },
+        {
+            url: 'https://www.grabient.com/',
+            title: 'Grabient - いい感じのグラデーションを生成'
+        }
+      ]
+    }
+  }
+}
+</script>
+
+<style scoped lang="styl">
+@import "../assets/css/common.styl"
+
+</style>
