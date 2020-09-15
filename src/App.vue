@@ -34,32 +34,4 @@ body {
 .main {
     margin-left: 360px;
 }
-
-.banner {
-    position: relative;
-    display: inline-block;
-    width: 612px;
-    height: 164px;
-    background-color: #FEBF1B;
-    border-radius: 16px;
-    margin-top: 32px;
-    overflow: hidden;
-}
-.banner p {
-    color: #fff;
-    margin: 32px;
-    width: 360px;
-}
-.banner p span {
-    display: inline-block;
-    margin-bottom: 8px;
-    font-size: 24px;
-    font-weight: bold;
-}
-.banner img {
-    position: absolute;
-    top: -50px;
-    right: -29px;
-    width: 293px;
-}
 </style>
