@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <global-menu />
-    <router-view/>
+    <router-view class="main" />
   </div>
 </template>
 
@@ -33,7 +33,7 @@ body {
 
 /* メイン */
 .main {
-    margin-left: 392px;
+    margin-left: 360px;
 }
 .banner {
     position: relative;
