@@ -6,9 +6,10 @@
         <nav class="menu">
             <router-link to="/" class="menu__list">TOP</router-link>
             <router-link to="/icon" class="menu__list">アイコン</router-link>
-            <a class="menu__list" href="./illust">イラスト</a>
-            <a class="menu__list" href="./color">配色</a>
-            <a class="menu__list" href="./animation">アニメーション</a>
+            <router-link to="/illust" class="menu__list">イラスト</router-link>
+            <!-- <router-link to="/color" class="menu__list">配色</router-link> -->
+            <!-- <router-link to="/animation" class="menu__list">アニメーション</router-link> -->
+
             <a class="menu__list" href="https://www.notion.so/akinen/Spott-79dc82356a2a4a15b52a696a9fbf8315">その他</a>
         </nav>
     </aside>
