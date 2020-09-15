@@ -6,7 +6,6 @@
 </template>
 
 <script>
-import 'normalize.css'
 import GlobalMenu from '@/components/GlobalMenu'
 
 export default {
