@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: 'Icon',
+  name: 'Illust',
   data () {
     return {
       cards: [
@@ -48,6 +48,5 @@ export default {
 </script>
 
 <style scoped lang="styl">
-@import "../assets/css/common.styl"
 
 </style>

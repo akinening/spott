@@ -17,6 +17,8 @@ export default {
 </script>
 
 <style lang="styl">
+@import "/assets/css/common.styl"
+
 body {
   font-family:
     "Helvetica Neue",

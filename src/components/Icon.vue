@@ -47,6 +47,5 @@ export default {
 </script>
 
 <style scoped lang="styl">
-@import "../assets/css/common.styl"
 
 </style>

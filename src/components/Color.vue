@@ -8,25 +8,25 @@
 
 <script>
 export default {
-  name: 'Icon',
+  name: 'Color',
   data () {
     return {
       links: [
         {
-            url: 'https://palx.jxnblk.com/',
-            title: 'PALX - 自動でカラーシステムを生成'
+          url: 'https://palx.jxnblk.com/',
+          title: 'PALX - 自動でカラーシステムを生成'
         },
         {
-            url: 'https://coolors.co/',
-            title: 'Coolors - 5種類の色の組み合わせ'
+          url: 'https://coolors.co/',
+          title: 'Coolors - 5種類の色の組み合わせ'
         },
         {
-            url: 'https://color.adobe.com/ja/create/color-wheel',
-            title: 'Adobe Color - 色の組み合わせ'
+          url: 'https://color.adobe.com/ja/create/color-wheel',
+          title: 'Adobe Color - 色の組み合わせ'
         },
         {
-            url: 'https://www.grabient.com/',
-            title: 'Grabient - いい感じのグラデーションを生成'
+          url: 'https://www.grabient.com/',
+          title: 'Grabient - いい感じのグラデーションを生成'
         }
       ]
     }
@@ -35,6 +35,5 @@ export default {
 </script>
 
 <style scoped lang="styl">
-@import "../assets/css/common.styl"
 
 </style>
