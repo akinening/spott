@@ -6,6 +6,7 @@
 </template>
 
 <script>
+import 'normalize.css'
 import GlobalMenu from '@/components/GlobalMenu'
 
 export default {
@@ -25,23 +26,10 @@ body {
     "Hiragino Sans",
     Meiryo,
     sans-serif;
+  color: #333;
   overscroll-behavior: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-body,p,h1,h2,h3,h4,h5,h6 {
-    margin: 0;
-}
-ul {
-    margin: 0;
-    padding: 0;
-}
-p,a,h1,h2,h3,h4,h5,h6 {
-    color: #333;
-}
-a {
-    text-decoration: none;
 }
 
 /* メイン */

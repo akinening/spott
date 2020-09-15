@@ -46,6 +46,7 @@ export default {
     font-size 20px
     font-weight bold
     padding 13px 0 13px 32px
+    text-decoration none
 
     &:hover:not(.menu__list--active)
       border-radius 100px
