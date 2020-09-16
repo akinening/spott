@@ -5,7 +5,7 @@
             <span>さあ、デザインの旅へ。</span><br>
             日々のデザイン業務で便利な「おすすめスポット」をまとめています。
         </p>
-        <img class="banner__image" src="https://akinening.github.io/bookmark/assets/location.svg" alt="map">
+        <img class="banner__image" src="@/assets/image/location.svg" alt="map">
     </div>
 
     <a class="card" href="https://dribbble.com/" target="_blank">

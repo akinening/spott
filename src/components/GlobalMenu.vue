@@ -1,7 +1,7 @@
 <template>
     <aside class="side">
         <a href="./">
-            <img class="logo" src="https://akinening.github.io/bookmark/assets/logo.svg" alt="Spott">
+            <img class="logo" src="@/assets/image/logo.svg" alt="Spott">
         </a>
         <nav class="menu">
             <router-link to="/" class="menu__list">TOP</router-link>
