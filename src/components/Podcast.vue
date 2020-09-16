@@ -18,32 +18,32 @@ export default {
     return {
       links: [
         {
-          url: 'https://glyphsearch.com/',
-          title: 'GlyphSearch - 複数サイトの一括検索'
+          url: 'https://automagic.fm/',
+          title: 'Automagic - 長谷川恭久氏によるデザイン話'
         },
         {
-          url: 'https://material.io/resources/icons/?style=baseline',
-          title: 'Material Design'
+          url: 'https://podcasts.google.com/feed/aHR0cHM6Ly9wb2RjYXN0LmhhaWppLmNvL2ZlZWQ?sa=X&ved=2ahUKEwiTy4fy9d7rAhUM0pQKHS3TAxgQ4aUDegQIARAC&hl=ja',
+          title: 'Export.fm - 灰色ハイジさんによるPodcast'
         },
         {
-          url: 'https://fontawesome.com/cheatsheet',
-          title: 'Font Awesome'
+          url: 'https://open.spotify.com/show/1ernnsEyZhdmeNa5V0cF2y?nd=1',
+          title: 'DESIGN FM - 未視聴'
         },
         {
-          url: 'https://icons.getbootstrap.com/',
-          title: 'Bootstrap Icon'
+          url: 'https://rebuild.fm/',
+          title: 'Rebuild.fm - Tech系Podcastの有名所'
         },
         {
-          url: 'https://systemuicons.com/',
-          title: 'System UIcons'
+          url: 'https://yatteiki.fm/',
+          title: 'yatteiki.fm - Tech系Podcastの有名所2'
         },
         {
-          url: 'https://icomoon.io/app/#/select',
-          title: 'IcoMoon Free'
+          url: 'https://podcasts.apple.com/jp/podcast/podpatch/id907442285',
+          title: 'Podpatch - GoodPatchのPodcast'
         },
         {
-          url: 'https://icooon-mono.com/',
-          title: 'ICOOON MONO - フリーアイコン集'
+          url: 'https://podcasts.apple.com/jp/podcast/designput-%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%97%E3%83%83%E3%83%88/id1460000663',
+          title: 'Designput（デザインプット） - 未視聴'
         }
       ]
     }
