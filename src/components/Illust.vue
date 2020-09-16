@@ -19,12 +19,12 @@ export default {
       cards: [
         {
           url: 'https://icons8.jp/',
-          img: 'https://akinening.github.io/bookmark/assets/having-job.png',
+          img: require('@/assets/image/icon-8.jpg'),
           title: 'ICON8 - アイコンやイラスト'
         },
         {
           url: 'https://www.ac-illust.com/',
-          img: require('@/assets/image/ac-illust.jpg') ,
+          img: require('@/assets/image/ac-illust.jpg'),
           title: 'illustAC - イラスト素材集'
         }
       ],
