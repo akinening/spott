@@ -55,8 +55,8 @@ export default {
 
 .podcast
   display inline-block
-  margin-bottom 32px
-  padding 12px 24px
+  margin-bottom 8px
+  padding 24px
   border-radius 12px
   box-shadow none
   transition box-shadow 0.25s ease 0s
