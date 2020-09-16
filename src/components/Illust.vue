@@ -24,7 +24,7 @@ export default {
         },
         {
           url: 'https://www.ac-illust.com/',
-          img: '../assets/image/ac-illust.jpg',
+          img: require('@/assets/image/ac-illust.jpg') ,
           title: 'illustAC - イラスト素材集'
         }
       ],

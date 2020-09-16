@@ -9,7 +9,7 @@
     </div>
 
     <a class="card" href="https://dribbble.com/" target="_blank">
-        <img src="../assets/image/dribbble.jpg" alt="dribbble">
+        <img src="@/assets/image/dribbble.jpg" alt="dribbble">
         <p>dribbble</p>
     </a>
     <a class="card" href="https://www.pinterest.jp/" target="_blank">
