@@ -31,16 +31,20 @@ export default {
       ],
       links: [
         {
-          url: 'https://www.linustock.com/',
-          title: 'Linustock - 線画イラスト'
+          url: 'https://www.uisources.com/apps',
+          title: 'UISOURCES - Mobile UIまとめ(中華系もアリ)'
         },
         {
-          url: 'https://loosedrawing.com/',
-          title: 'Loose Drawing - 手描き風の線画イラスト'
+          url: 'https://uimovement.com/',
+          title: 'UIMovement - UIアニメーションまとめ'
         },
         {
-          url: 'https://undraw.co/illustrations',
-          title: 'unDraw - 抽象めイラスト'
+          url: 'https://ui8.net/',
+          title: 'UI8 - UI Kit販売サイト'
+        },
+        {
+          url: 'https://www.pttrns.com/',
+          title: 'Pttrns - アプリのUIスクショまとめ'
         }
       ]
     }
