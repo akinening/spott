@@ -6,7 +6,8 @@
     </a>
 
     <a class="link" v-for="(link, num) in links" :href="link.url" :key="num" target="_blank">
-      {{ link.title }}
+      <p class="link__title">{{ link.title }}</p>
+      <p class="link__url">{{ link.url }}</p>
     </a>
   </div>
 </template>

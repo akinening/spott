@@ -2,44 +2,59 @@ a
     text-decoration none
     color #333
 
+p
+    margin 0
+
 .article
     margin 48px 0 32px
     font-size 24px
 
-.link,
-.card
+.link
     display inline-block
     position relative
     width 612px
     min-height 64px
     padding 12px 24px 12px 76px
     margin-bottom 12px
-    font-size 16px
-    font-weight bold
     border-radius 12px
     box-shadow none
     box-sizing border-box
     transition box-shadow 0.25s ease 0s
 
-.link:hover,
-.card
-    box-shadow 0px 4px 24px rgba(0,0,0,0.08)
+    &__title
+        font-size 16px
+        font-weight bold
+        margin-bottom 8px
 
-.link::before
-    content ''
-    position absolute
-    top 12px
-    left 24px
-    width 40px
-    height 40px
-    background-color #FEBF1B
-    border-radius 12px
+    &__url
+        font-size 12px
+        color #999
+
+    &:hover
+        box-shadow 0px 4px 24px rgba(0,0,0,0.08)
+
+    &::before
+        content ''
+        position absolute
+        top 12px
+        left 24px
+        width 40px
+        height 40px
+        background-color #FEBF1B
+        border-radius 12px
 
 .card
+    display inline-block
+    position relative
     width 200px
     padding 16px
     margin 0 16px 32px 0
+    font-size 16px
+    font-weight bold
     border-radius 16px
+    box-shadow 0px 4px 24px rgba(0,0,0,0.08)
+    box-sizing border-box
+    transition box-shadow 0.25s ease 0s
 
     &:hover
         box-shadow none
