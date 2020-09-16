@@ -24,7 +24,7 @@ export default {
         },
         {
           url: 'https://www.ac-illust.com/',
-          img: 'https://akinening.github.io/spott/src/assets/image/ac-illust.jpg',
+          img: '../assets/image/ac-illust.jpg',
           title: 'illustAC - イラスト素材集'
         }
       ],
