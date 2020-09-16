@@ -9,7 +9,7 @@
     </div>
 
     <a class="card" href="https://dribbble.com/" target="_blank">
-        <img src="https://assets.st-note.com/production/uploads/images/7408223/rectangle_large_type_2_6ea9ccdcc8fc81d64a4e3446046cc477.jpg" alt="dribbble">
+        <img src="https://akinening.github.io/spott/src/assets/image/dribbble.jpg" alt="dribbble">
         <p>dribbble</p>
     </a>
     <a class="card" href="https://www.pinterest.jp/" target="_blank">
