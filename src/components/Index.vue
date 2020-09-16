@@ -13,7 +13,7 @@
         <p>dribbble</p>
     </a>
     <a class="card" href="https://www.pinterest.jp/" target="_blank">
-        <img src="https://s.pinimg.com/images/facebook_share_image.png"
+        <img src="@/assets/image/pinterest.jpg"
             alt="pinterest">
         <p>Pinterest</p>
     </a>
