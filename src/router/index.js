@@ -6,6 +6,7 @@ import Illust from '@/components/Illust'
 import Color from '@/components/Color'
 import Animation from '@/components/Animation'
 import UserInterface from '@/components/UserInterface'
+import Podcast from '@/components/Podcast'
 
 Vue.use(Router)
 
@@ -16,6 +17,7 @@ export default new Router({
     { path: '/illust', name: 'Illust', component: Illust },
     { path: '/color', name: 'Color', component: Color },
     { path: '/animation', name: 'Animation', component: Animation },
-    { path: '/ui', name: 'UserInterface', component: UserInterface }
+    { path: '/ui', name: 'UserInterface', component: UserInterface },
+    { path: '/podcast', name: 'Podcast', component: Podcast }
   ]
 })

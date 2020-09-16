@@ -10,6 +10,7 @@
             <router-link to="/illust" class="menu__list">イラスト</router-link>
             <router-link to="/color" class="menu__list">配色</router-link>
             <router-link to="/animation" class="menu__list">アニメーション</router-link>
+            <router-link to="/podcast" class="menu__list">Podcast</router-link>
 
             <a class="menu__list" href="https://www.notion.so/akinen/Spott-79dc82356a2a4a15b52a696a9fbf8315">その他</a>
         </nav>
