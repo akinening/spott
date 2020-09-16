@@ -5,7 +5,7 @@
         <p>{{ card.title }}</p>
     </a>
 
-    <a class="link-list" v-for="(link, num) in links" :href="link.url" :key="num" target="_blank">
+    <a class="link" v-for="(link, num) in links" :href="link.url" :key="num" target="_blank">
       {{ link.title }}
     </a>
   </div>

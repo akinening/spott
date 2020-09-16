@@ -1,7 +1,7 @@
 <template>
   <div>
-    <a class="link-list" v-for="(link, num) in links" :href="link.url" :key="num" target="_blank">
-      {{ link.title }}
+    <a class="link" v-for="(link, num) in links" :href="link.url" :key="num" target="_blank">
+      <p class="">{{ link.title }}</p>
     </a>
   </div>
 </template>
