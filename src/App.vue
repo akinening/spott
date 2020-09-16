@@ -34,7 +34,8 @@ body {
 }
 
 .main
-    margin-top 32px
-    margin-left calc(360px + 32px)
+  max-width 640px
+  margin-top 32px
+  margin-left calc(360px + 32px)
 
 </style>
