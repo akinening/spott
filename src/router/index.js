@@ -7,6 +7,7 @@ import Color from '@/components/Color'
 import Animation from '@/components/Animation'
 import UserInterface from '@/components/UserInterface'
 import Podcast from '@/components/Podcast'
+import Web from '@/components/Web'
 
 Vue.use(Router)
 
@@ -18,6 +19,7 @@ export default new Router({
     { path: '/color', name: 'Color', component: Color },
     { path: '/animation', name: 'Animation', component: Animation },
     { path: '/ui', name: 'UserInterface', component: UserInterface },
-    { path: '/podcast', name: 'Podcast', component: Podcast }
+    { path: '/podcast', name: 'Podcast', component: Podcast },
+    { path: '/web', name: 'Web', component: Web }
   ]
 })
