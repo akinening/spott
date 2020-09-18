@@ -19,17 +19,21 @@ export default {
     return {
       cards: [
         {
-          url: 'https://learnmobile.design/',
-          img: require('@/assets/image/learn-mobile.jpg'),
-          title: 'Mobileのデザインリソースまとめ'
-        },
-        {
           url: 'https://mobbin.design/',
           img: require('@/assets/image/mobbin.jpg'),
           title: 'Mobbin - Mobileのデザインパターン'
+        },
+        {
+          url: 'https://consim.design/',
+          img: require('@/assets/image/consim.jpg'),
+          title: 'consim - iOSとAndroidのUI比較'
         }
       ],
       links: [
+        {
+          url: 'https://learnmobile.design/',
+          title: 'Mobileのデザインリソースまとめ'
+        },
         {
           url: 'https://www.uisources.com/apps',
           title: 'UISOURCES - Mobile UIまとめ(中華系もアリ)'
