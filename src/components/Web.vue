@@ -57,6 +57,10 @@ export default {
         {
           url: 'http://japan.2-wg.com/',
           title: 'Japan Web Design Gallery - 国内LP'
+        },
+        {
+          url: 'https://www.ikesai.com/',
+          title: 'イケサイ - 国内LP'
         }
       ]
     }
