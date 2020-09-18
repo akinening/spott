@@ -43,6 +43,10 @@ export default {
           title: 'SiteInspire - 海外LP'
         },
         {
+          url: 'https://www.lapa.ninja/',
+          title: 'lapa - 海外LP'
+        },
+        {
           url: 'https://io3000.com/',
           title: 'io3000 - 国内LP'
         },
