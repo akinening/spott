@@ -8,6 +8,7 @@ import Animation from '@/components/Animation'
 import UserInterface from '@/components/UserInterface'
 import Podcast from '@/components/Podcast'
 import Web from '@/components/Web'
+import DesignSystem from '@/components/DesignSystem'
 
 Vue.use(Router)
 
@@ -20,6 +21,7 @@ export default new Router({
     { path: '/animation', name: 'Animation', component: Animation },
     { path: '/ui', name: 'UserInterface', component: UserInterface },
     { path: '/podcast', name: 'Podcast', component: Podcast },
-    { path: '/web', name: 'Web', component: Web }
+    { path: '/web', name: 'Web', component: Web },
+    { path: '/system', name: 'DesignSystem', component: DesignSystem }
   ]
 })

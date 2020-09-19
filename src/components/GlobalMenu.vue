@@ -5,6 +5,7 @@
         </a>
         <nav class="menu">
             <router-link to="/" class="menu__list">TOP</router-link>
+            <router-link to="/system" class="menu__list">デザインシステム</router-link>
             <router-link to="/web" class="menu__list">Web</router-link>
             <router-link to="/ui" class="menu__list">UI</router-link>
             <router-link to="/icon" class="menu__list">アイコン</router-link>
