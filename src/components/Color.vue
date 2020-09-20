@@ -22,6 +22,10 @@ export default {
           title: 'Coolors - 5種類の色の組み合わせ'
         },
         {
+          url: 'https://www.palettable.io/',
+          title: 'Pallettable - 5種類の色の組み合わせ'
+        },
+        {
           url: 'https://color.adobe.com/ja/create/color-wheel',
           title: 'Adobe Color - 色の組み合わせ'
         },
