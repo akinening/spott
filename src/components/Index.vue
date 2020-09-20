@@ -54,6 +54,10 @@ export default {
         {
           url: 'https://www.uplabs.com/',
           title: 'uplabs - デザインファイル共有サイト'
+        },
+        {
+          url: 'https://search.muz.li/',
+          title: 'Muzli - デザイン横断一括検索'
         }
       ]
     }
@@ -61,7 +65,7 @@ export default {
 }
 </script>
 
-<style scoped lang="styl">
+<style scoped lang="stylus">
 .banner
   position relative
   display inline-block

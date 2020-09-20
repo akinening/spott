@@ -16,7 +16,7 @@ export default {
 }
 </script>
 
-<style lang="styl">
+<style lang="stylus">
 @import "/assets/css/common.styl"
 
 body {

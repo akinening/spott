@@ -48,6 +48,6 @@ export default {
 }
 </script>
 
-<style scoped lang="styl">
+<style scoped lang="stylus">
 
 </style>
