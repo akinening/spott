@@ -1,11 +1,11 @@
 <template>
   <div>
-    <a class="card" v-for="(card, num) in cards" :href="card.url" :key="num" target="_blank">
+    <a class="card" v-for="(card, num) in cards" :href="card.url" :key="`first-${num}`" target="_blank">
         <img :src="card.img" :alt="card.title">
         <p>{{ card.title }}</p>
     </a>
 
-    <a class="link" v-for="(link, num) in links" :href="link.url" :key="num" target="_blank">
+    <a class="link" v-for="(link, num) in links" :href="link.url" :key="`second-${num}`" target="_blank">
       <p class="link__title">{{ link.title }}</p>
       <p class="link__url">{{ link.url }}</p>
     </a>
