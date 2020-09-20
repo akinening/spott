@@ -18,6 +18,10 @@ export default {
           title: 'GlyphSearch - 複数サイトの一括検索'
         },
         {
+          url: 'https://www.figma.com/community/file/806291777034672116',
+          title: 'Twemoji'
+        },
+        {
           url: 'https://material.io/resources/icons/?style=baseline',
           title: 'Material Design'
         },
