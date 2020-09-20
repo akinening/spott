@@ -16,6 +16,11 @@
 
             <a class="menu__list" href="https://www.notion.so/akinen/Spott-79dc82356a2a4a15b52a696a9fbf8315">その他</a>
         </nav>
+        <a class="feedback" href="https://twitter.com/_akinen" target="__blank">
+            <img class="feedback__icon" src="@/assets/image/akinen.png" alt="akinen">
+            <p class="feedback__title">Follow Me</p>
+            <p class="feedback__description">改善のアイデアも募集しています</p>
+        </a>
     </aside>
 </template>
 
@@ -55,7 +60,7 @@ export default {
 
     &:hover:not(.router-link-exact-active)
       border-radius 100px
-      background-color rgba(255, 255, 255, 0.25)
+      background-color rgba(255, 255, 255, 0.2)
       transition background-color 0.25s
 
   .router-link-exact-active
@@ -80,4 +85,33 @@ export default {
     &::after
       bottom -28px
       transform scale(1, -1)
+
+.feedback
+  position absolute
+  bottom 32px
+  right 32px
+  width 243px
+  height 64px
+  padding 12px 12px 12px 62px
+  box-sizing border-box
+  border-radius 100px
+  background-color rgba(255, 255, 255, 0.2)
+
+  &__icon
+    position absolute
+    top 12px
+    left 12px
+    width 40px
+    height 40px
+    border-radius 20px
+
+  &__title
+    margin-bottom 8px
+    color white
+    font-size 16px
+    font-weight bold
+
+  &__description
+    color #ccc
+    font-size 11px
 </style>
