@@ -9,6 +9,7 @@ import UserInterface from '@/components/UserInterface'
 import Podcast from '@/components/Podcast'
 import Web from '@/components/Web'
 import DesignSystem from '@/components/DesignSystem'
+import Picture from '@/components/Picture'
 
 Vue.use(Router)
 
@@ -22,6 +23,7 @@ export default new Router({
     { path: '/ui', name: 'UserInterface', component: UserInterface },
     { path: '/podcast', name: 'Podcast', component: Podcast },
     { path: '/web', name: 'Web', component: Web },
-    { path: '/system', name: 'DesignSystem', component: DesignSystem }
+    { path: '/system', name: 'DesignSystem', component: DesignSystem },
+    { path: '/picture', name: 'Picture', component: Picture }
   ]
 })

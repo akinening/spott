@@ -10,11 +10,10 @@
             <router-link to="/web" class="menu__list">Web</router-link>
             <router-link to="/icon" class="menu__list">アイコン</router-link>
             <router-link to="/illust" class="menu__list">イラスト</router-link>
+            <router-link to="/picture" class="menu__list">写真</router-link>
             <router-link to="/color" class="menu__list">配色</router-link>
             <router-link to="/animation" class="menu__list">アニメーション</router-link>
             <router-link to="/podcast" class="menu__list">Podcast</router-link>
-
-            <a class="menu__list" href="https://www.notion.so/akinen/Spott-79dc82356a2a4a15b52a696a9fbf8315">その他</a>
         </nav>
         <a class="feedback" href="https://twitter.com/_akinen" target="__blank">
             <img class="feedback__icon" src="@/assets/image/akinen.png" alt="akinen">
