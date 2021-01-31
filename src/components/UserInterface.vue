@@ -31,6 +31,22 @@ export default {
       ],
       links: [
         {
+          url: 'https://uxarchive.com/',
+          title: 'アプリの画面遷移・UXのまとめ'
+        },
+        {
+          url: 'https://ux-mov.com/',
+          title: 'UX.mov - アプリのUIが動画で見れるギャラリーサイト'
+        },
+        {
+          url: 'https://www.gameuidatabase.com/',
+          title: 'Game UI Database'
+        },
+        {
+          url: 'https://gameui.matme.info/blog/',
+          title: 'ゲームUIまとめ'
+        },
+        {
           url: 'https://learnmobile.design/',
           title: 'Mobileのデザインリソースまとめ'
         },
