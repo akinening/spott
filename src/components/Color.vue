@@ -18,6 +18,10 @@ export default {
           title: 'PALX - 自動でカラーシステムを生成'
         },
         {
+          url: 'https://colorbox.io/',
+          title: 'ColorBox - 自動でカラーシステムを生成'
+        },
+        {
           url: 'https://coolors.co/',
           title: 'Coolors - 5種類の色の組み合わせ'
         },

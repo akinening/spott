@@ -31,16 +31,26 @@ export default {
 
 <style lang="stylus" scoped>
 .side
+  z-index 1
   position fixed
   top 0
   left 0
   width 360px
-  height 100vh
+  height 100%
   background-color #111424
+
+  @media screen and (max-width: 768px) {
+    width 100%
+    height 88px
+  }
 
 .logo
   width 160px
   margin 32px 0 0 105px
+
+  @media screen and (max-width: 768px) {
+    display none
+  }
 
 .menu
   display flex
@@ -49,6 +59,18 @@ export default {
   width 255px
   float right
 
+  @media screen and (max-width: 768px) {
+    flex-direction row
+    margin-top 24px
+    width 100%
+    float left
+    overflow-x scroll
+
+    &::-webkit-scrollbar {
+      display none
+    }
+  }
+
   &__list
     position relative
     color #fff
@@ -56,6 +78,12 @@ export default {
     font-weight bold
     padding 13px 0 13px 32px
     text-decoration none
+
+    @media screen and (max-width: 768px) {
+      flex 0 0 auto
+      margin 0 4px
+      padding 8px 24px
+    }
 
     &:hover:not(.router-link-exact-active)
       border-radius 100px
@@ -67,6 +95,10 @@ export default {
     background-color #fff
     border-radius 28px 0 0 28px
 
+    @media screen and (max-width: 768px) {
+      border-radius 100px
+    }
+
     &::before,
     &::after
       content ''
@@ -77,6 +109,10 @@ export default {
       right 0
       background-image url('https://akinening.github.io/bookmark/assets/rounded.svg')
       background-size cover
+
+      @media screen and (max-width: 768px) {
+        display none
+      }
 
     &::before
       top -28px
@@ -95,6 +131,10 @@ export default {
   box-sizing border-box
   border-radius 100px
   background-color rgba(255, 255, 255, 0.2)
+
+  @media screen and (max-width: 768px) {
+    display none
+  }
 
   &__icon
     position absolute

@@ -38,4 +38,8 @@ body {
   margin-top 32px
   margin-left calc(360px + 32px)
 
+  @media screen and (max-width: 768px) {
+    margin-top 120px
+    margin-left 32px
+  }
 </style>
