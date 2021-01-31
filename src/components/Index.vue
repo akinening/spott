@@ -28,7 +28,7 @@ export default {
     return {
       cards: [
         {
-          url: '"https://dribbble.com/',
+          url: 'https://dribbble.com/',
           img: require('@/assets/image/dribbble.jpg'),
           title: 'dribbble'
         },
