@@ -73,7 +73,8 @@ export default {
 .banner
   position relative
   display inline-block
-  width 612px
+  width 100%
+  max-width 612px
   height 164px
   margin-bottom 32px
   background-color #FEBF1B
