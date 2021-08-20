@@ -31,8 +31,8 @@ export default {
       ],
       links: [
         {
-          url: 'https://smarthr.invisionapp.com/share/ADUDJ8BW74C#/screens',
-          title: 'SmartHR UI'
+          url: 'https://smarthr.design/',
+          title: 'SmartHR Design System'
         },
         {
           url: 'https://ant.design/',

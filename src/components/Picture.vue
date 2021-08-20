@@ -26,24 +26,20 @@ export default {
       ],
       links: [
         {
+          url: 'https://stock.adobe.com/jp/free',
+          title: 'Adobe Stock 無料コレクション'
+        },
+        {
           url: 'https://o-dan.net/ja/',
           title: 'O-DAN - 無料写真素材検索'
         },
         {
-          url: 'https://graphicburger.com/backgrounds/',
-          title: 'GRAPHICBURGER - 背景素材、アイコン、モックアップ等'
+          url: 'https://imguma.com/',
+          title: 'あっしゅくま - 画像圧縮'
         },
         {
-          url: 'https://jp.freepik.com/',
-          title: 'freepik - 要ライセンス確認'
-        },
-        {
-          url: 'https://ccphotosearch.com/',
-          title: 'FlickrのCCライセンス画像検索'
-        },
-        {
-          url: 'https://www.google.com/search?q=FFCU+image',
-          title: 'FFCU でのGoogle検索結果'
+          url: 'https://squoosh.app/',
+          title: 'Squoosh - 画像圧縮'
         }
       ]
     }

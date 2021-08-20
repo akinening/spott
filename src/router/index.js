@@ -8,6 +8,7 @@ import Animation from '@/components/Animation'
 import UserInterface from '@/components/UserInterface'
 import Podcast from '@/components/Podcast'
 import Web from '@/components/Web'
+import Graphic from '@/components/Graphic'
 import DesignSystem from '@/components/DesignSystem'
 import Picture from '@/components/Picture'
 
@@ -23,6 +24,7 @@ export default new Router({
     { path: '/ui', name: 'UserInterface', component: UserInterface },
     { path: '/podcast', name: 'Podcast', component: Podcast },
     { path: '/web', name: 'Web', component: Web },
+    { path: '/graphic', name: 'Graphic', component: Graphic },
     { path: '/system', name: 'DesignSystem', component: DesignSystem },
     { path: '/picture', name: 'Picture', component: Picture }
   ]

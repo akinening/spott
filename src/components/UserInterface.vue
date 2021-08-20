@@ -32,7 +32,7 @@ export default {
       links: [
         {
           url: 'https://uxarchive.com/',
-          title: 'アプリの画面遷移・UXのまとめ'
+          title: 'UX Archive -- アプリの画面遷移・UXのまとめ'
         },
         {
           url: 'https://ux-mov.com/',
@@ -55,16 +55,12 @@ export default {
           title: 'UISOURCES - Mobile UIまとめ(中華系もアリ)'
         },
         {
-          url: 'https://uimovement.com/',
-          title: 'UIMovement - UIアニメーションまとめ'
+          url: 'https://screenlane.com/',
+          title: 'Screenlane - UIアニメーション集'
         },
         {
           url: 'https://ui8.net/',
           title: 'UI8 - UI Kit販売サイト'
-        },
-        {
-          url: 'https://www.pttrns.com/',
-          title: 'Pttrns - アプリのUIスクショまとめ'
         }
       ]
     }

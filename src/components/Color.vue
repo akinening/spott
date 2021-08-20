@@ -14,12 +14,16 @@ export default {
     return {
       links: [
         {
-          url: 'https://palx.jxnblk.com/',
-          title: 'PALX - 自動でカラーシステムを生成'
+          url: 'https://colorbase.app/',
+          title: 'Colorbase - オールインワン・カラーツール'
         },
         {
           url: 'https://colorbox.io/',
-          title: 'ColorBox - 自動でカラーシステムを生成'
+          title: 'Colorbox - 自動でカラーシステムを生成'
+        },
+        {
+          url: 'https://palx.jxnblk.com/',
+          title: 'PALX - 自動でカラーシステムを生成'
         },
         {
           url: 'https://coolors.co/',

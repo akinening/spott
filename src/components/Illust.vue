@@ -24,9 +24,9 @@ export default {
           title: 'ICON8 - アイコンやイラスト'
         },
         {
-          url: 'https://stories.freepik.com/',
+          url: 'https://storyset.com/',
           img: require('@/assets/image/stories.jpg'),
-          title: 'stories - 抽象めイラスト'
+          title: 'Storyset - 抽象フリーイラスト'
         }
       ],
       links: [

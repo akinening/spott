@@ -40,6 +40,10 @@ export default {
       ],
       links: [
         {
+          url: 'https://www.figma.com/resources/',
+          title: 'Figma Resources'
+        },
+        {
           url: 'https://www.evernote.design/',
           title: 'All in One Bookmark Links'
         },
@@ -54,14 +58,6 @@ export default {
         {
           url: 'https://www.uplabs.com/',
           title: 'uplabs - デザインファイル共有サイト'
-        },
-        {
-          url: 'https://www.figma.com/resources/',
-          title: 'Figma Resources'
-        },
-        {
-          url: 'https://search.muz.li/',
-          title: 'Muzli - デザイン横断一括検索'
         }
       ]
     }

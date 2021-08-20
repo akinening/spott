@@ -39,14 +39,6 @@ export default {
           title: 'S5-Style - 国内LP'
         },
         {
-          url: 'https://www.siteinspire.com/',
-          title: 'SiteInspire - 海外LP'
-        },
-        {
-          url: 'https://www.lapa.ninja/',
-          title: 'lapa - 海外LP'
-        },
-        {
           url: 'https://io3000.com/',
           title: 'io3000 - 国内LP'
         },
@@ -55,12 +47,12 @@ export default {
           title: 'Web Design Clip - 国内LP'
         },
         {
-          url: 'http://japan.2-wg.com/',
-          title: 'Japan Web Design Gallery - 国内LP'
+          url: 'https://www.siteinspire.com/',
+          title: 'SiteInspire - 海外LP'
         },
         {
-          url: 'https://www.ikesai.com/',
-          title: 'イケサイ - 国内LP'
+          url: 'https://www.lapa.ninja/',
+          title: 'lapa - 海外LP'
         }
       ]
     }
