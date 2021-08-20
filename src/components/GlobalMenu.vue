@@ -103,7 +103,7 @@ export default {
       width 28px
       height 28px
       right 0
-      background-image url('https://akinening.github.io/bookmark/assets/rounded.svg')
+      background-image url('../assets/image/rounded.svg')
       background-size cover
 
       @media screen and (max-width: 768px) {
