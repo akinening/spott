@@ -1,7 +1,7 @@
 <template>
   <div>
     <a class="podcast" v-for="(link, num) in links" :href="link.url" :key="num" target="_blank">
-      <img class="podcast__image" src="@/assets/image/podcast.png" alt="Podcast">
+      <img class="podcast__image" :src="link.img" alt="Podcast">
       <p class="podcast__title">{{ link.title }}</p>
       <div class="podcast__wave">
         <img src="@/assets/image/wave.svg" alt="wave">
@@ -19,31 +19,38 @@ export default {
       links: [
         {
           url: 'https://automagic.fm/',
-          title: 'Automagic - 長谷川恭久氏によるデザイン話'
+          img: 'https://64.media.tumblr.com/avatar_e98b3fcf98b0_128.png',
+          title: 'Automagic - 長谷川恭久さんによるデザインの話'
         },
         {
           url: 'https://podcasts.google.com/feed/aHR0cHM6Ly9wb2RjYXN0LmhhaWppLmNvL2ZlZWQ?sa=X&ved=2ahUKEwiTy4fy9d7rAhUM0pQKHS3TAxgQ4aUDegQIARAC&hl=ja',
+          img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHFoSfZrQWG6iI5n987ci5LYvJdoknUQoHTkg2IDvc4ILnC-Q',
           title: 'Export.fm - 灰色ハイジさんによるPodcast'
         },
         {
           url: 'https://open.spotify.com/show/1ernnsEyZhdmeNa5V0cF2y?nd=1',
-          title: 'DESIGN FM - 未視聴'
+          img: 'https://s3-us-west-2.amazonaws.com/anchor-generated-image-bank/production/podcast_uploaded400/2706174/2706174-1574405125893-f4cbe39621e34.jpg',
+          title: 'DESIGN FM - かねこつよしさん'
         },
         {
           url: 'https://rebuild.fm/',
+          img: require('@/assets/image/podcast.png'),
           title: 'Rebuild.fm - Tech系Podcastの有名所'
         },
         {
           url: 'https://yatteiki.fm/',
+          img: require('@/assets/image/podcast.png'),
           title: 'yatteiki.fm - Tech系Podcastの有名所2'
         },
         {
           url: 'https://podcasts.apple.com/jp/podcast/podpatch/id907442285',
+          img: require('@/assets/image/podcast.png'),
           title: 'Podpatch - GoodPatchのPodcast'
         },
         {
-          url: 'https://podcasts.apple.com/jp/podcast/designput-%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%97%E3%83%83%E3%83%88/id1460000663',
-          title: 'Designput（デザインプット） - 未視聴'
+          url: 'https://anchor.fm/designput',
+          img: require('@/assets/image/podcast.png'),
+          title: 'Designput（デザインプット）'
         }
       ]
     }

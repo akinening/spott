@@ -32,7 +32,7 @@ export default {
       links: [
         {
           url: 'https://uxarchive.com/',
-          title: 'UX Archive -- アプリの画面遷移・UXのまとめ'
+          title: 'UX Archive - アプリの画面遷移・UXのまとめ'
         },
         {
           url: 'https://ux-mov.com/',

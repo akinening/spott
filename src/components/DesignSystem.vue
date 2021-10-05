@@ -27,6 +27,11 @@ export default {
           url: 'https://designsystemsforfigma.com/',
           img: require('@/assets/image/figma.jpg'),
           title: 'Figmaで公開されているもの一覧'
+        },
+        {
+          url: 'https://www.designsystems.com/open-design-systems/',
+          img: 'https://images.ctfassets.net/7jw9uvgmirvi/5a15Ibf9FLqROCcRHaWL5X/022b34dcda4d52970ff01e784fa6914d/home_OG.png?w=600',
+          title: '各社のFigmaファイル事例'
         }
       ],
       links: [

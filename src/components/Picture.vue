@@ -22,6 +22,11 @@ export default {
           url: 'https://unsplash.com/',
           img: require('@/assets/image/unsplash.png'),
           title: 'Unsplash'
+        },
+        {
+          url: 'https://www.photo-ac.com/',
+          img: require('@/assets/image/podcast.png'),
+          title: 'Photo AC'
         }
       ],
       links: [

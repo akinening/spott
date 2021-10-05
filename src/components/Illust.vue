@@ -19,6 +19,11 @@ export default {
     return {
       cards: [
         {
+          url: 'https://www.ac-illust.com/',
+          img: require('@/assets/image/stories.jpg'),
+          title: 'illustAC - イラスト素材集'
+        },
+        {
           url: 'https://icons8.jp/',
           img: require('@/assets/image/icon-8.jpg'),
           title: 'ICON8 - アイコンやイラスト'
@@ -41,10 +46,6 @@ export default {
         {
           url: 'https://undraw.co/illustrations',
           title: 'unDraw - 抽象めイラスト'
-        },
-        {
-          url: 'https://www.ac-illust.com/',
-          title: 'illustAC - イラスト素材集'
         }
       ]
     }

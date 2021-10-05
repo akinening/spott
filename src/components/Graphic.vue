@@ -14,6 +14,10 @@ export default {
     return {
       links: [
         {
+          url: 'https://www.facebook.com/ads/library/?active_status=all&ad_type=all',
+          title: 'Facebook / Instagram 広告検索'
+        },
+        {
           url: 'https://bannnner.com/',
           title: 'Bannnner.com - バナーデザイン'
         },
