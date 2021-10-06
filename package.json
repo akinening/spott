@@ -1,7 +1,7 @@
 {
-  "name": "spott",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
+  "name": "drawer",
+  "version": "1.6.0",
+  "description": "Drawerは、UIデザイナーのための作業効率化・生産性向上を目的とした拡張機能です。",
   "author": "Akinen",
   "private": true,
   "scripts": {

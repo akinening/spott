@@ -1,4 +1,4 @@
 module.exports = {
-    baseUrl: '/spott/',
+    baseUrl: '/drawer/',
     outputDir: 'docs'
 }
