@@ -38,6 +38,10 @@ export default {
           title: 'Adobe Color - 色の組み合わせ'
         },
         {
+          url: 'https://branition.com/colors',
+          title: 'Branition Colors - ブランディングの色'
+        },
+        {
           url: 'https://www.grabient.com/',
           title: 'Grabient - いい感じのグラデーションを生成'
         }
